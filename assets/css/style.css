@@ -831,10 +831,17 @@ a:hover {
   margin: .5rem 0 1.2rem 0;
   border-radius: 0;
   height: .7rem;
+  display: block;
+}
+
+.skill-mf .progress-bar-wrap {
+  background: #f2f3f5;
 }
 
 .skill-mf .progress .progress-bar {
+  width: 1px;
   height: .7rem;
+  transition: .9s;
   background-color: #0078ff;
 }
 
